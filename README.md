@@ -9,13 +9,21 @@ The software provides handling of various patient records. It keeps track of num
 Classes
 
 1)Patient
+
 2)Registration
+
 3)Ward
+
 4)Transaction
+
 5)Admit
+
 6)Doctor
+
 7)Report
+
 8)Edit
+
 
 
 Responsibilities 		Collaboration
