@@ -3,7 +3,7 @@ Hospital_Management_Software
 
 The software provides handling of various patient records. It keeps track of number of beds in wards, patient ward information, billing, discharge with total amount due and update transfer patient details, patient personal information.
 
-
+Tools used : Netbeans IDE with Swing and Oracle, StarUML
 =================================================================================================
 
 Classes
@@ -26,42 +26,24 @@ Classes
 
 
 
-Responsibilities 		Collaboration
+Responsibilities  =========>Collaboration
 
 
-1.Admit patient                             Ward
-	                                          Admit
-	                                          Doctor
+1.Admit patient  ==========>  Ward ,Admit ,Doctor
 
-2. Bed Allotment                            Patient
-    				                                Ward
+2. Bed Allotment ==========> Patient, Ward, 
 
-3. Prescribe test                           Report 
-				                                    Patient
-				                                    Doctor
+3. Prescribe test =========> Report, Patient,Doctor
 
-4. Update Charges                           Edit 
-                                            Transaction
-                                            Patient
+4. Update Charges =========> Edit, Transaction,Patient
 
-5.Transfer patient                          Edit
-                                            Ward
-                                            Patient
+5.Transfer patient ========> Edit, Ward, Patient
 
-6.Discharge                                 Ward
-                                            Edit
-                                            Patient
-                                            Transaction        
-                                            
+6.Discharge  ============>  Ward, Edit, Patient, Transaction        
 
-7. Display patient info                    Ward
-                                           Doctor
-                                           Patient
-                                           Admit
-                                           Report
+7. Display patient info ===========>  Ward, Doctor, Patient, Admit, Report
 
-8.Ward availability                        Ward
-                                           Patient
+8.Ward availability ===============>  Ward, Patient
 
 
 
